@@ -14,6 +14,39 @@ html{
 
     font-size:62.5%;
 }
+.section-1{
+width: 100vw;
+height: 100vh;
+display:flex;
+background-color:rgb(228, 228, 42);
+justify-content:space-evenly;
+flex-direction: column;
+align-items: center;
+}
+.section-heading{
+font-size: 10rem;
+font-weight: 800;
+color: rgb(251, 249, 249);
+text-align: center;
+text-transform: capitalize;
+letter-spacing: 0.5rem;
+text-shadow: 0.3rem 0.3rem 0.3rem #000;
+}
+.section-1-icons i{
+font-size: 35rem;
+position: absolute;
+transform:translate(-50%,-50%) scale(0);
+text-shadow: 0.2rem 0.2rem 0.2rem #000;
+}
+.section-1-icons i.change{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+
+
+
 
 
 
